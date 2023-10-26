@@ -47,3 +47,4 @@ setuptools>=65.5.1 # Snyk vulnerability fix
 # albumentations>=1.0.3
 # pycocotools>=2.0.6  # COCO mAP
 # ultralytics  # HUB https://hub.ultralytics.com
+werkzeug>=3.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
