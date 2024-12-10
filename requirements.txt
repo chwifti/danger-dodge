@@ -12,7 +12,7 @@ PyYAML>=5.3.1
 requests>=2.23.0
 scipy>=1.4.1
 thop>=0.1.1  # FLOPs computation
-torch>=1.7.0  # see https://pytorch.org/get-started/locally (recommended)
+torch>=2.2.0  # see https://pytorch.org/get-started/locally (recommended)
 torchvision>=0.8.1
 tqdm>=4.64.0
 # protobuf<=3.20.1  # https://github.com/ultralytics/yolov5/issues/8012
@@ -38,7 +38,7 @@ seaborn>=0.11.0
 # openvino-dev  # OpenVINO export
 
 # Deploy ----------------------------------------------------------------------
-setuptools>=65.5.1 # Snyk vulnerability fix
+setuptools>=70.0.0 # Snyk vulnerability fix
 # tritonclient[all]~=2.24.0
 
 # Extras ----------------------------------------------------------------------
@@ -48,3 +48,4 @@ setuptools>=65.5.1 # Snyk vulnerability fix
 # pycocotools>=2.0.6  # COCO mAP
 # ultralytics  # HUB https://hub.ultralytics.com
 werkzeug>=3.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
+wheel>=0.38.0 # not directly required, pinned by Snyk to avoid a vulnerability
